@@ -8,7 +8,7 @@ namespace InspectionAPI.Data
 
 		public DbSet<Inspection> Inspections { get; set; }
 
-		public DbSet<Type> Types { get; set; }
+		public DbSet<InspectionType> InspectionTypes { get; set; }
 
 		public DbSet<Status> Statuses { get; set; }
 	}
